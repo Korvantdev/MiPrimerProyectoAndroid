@@ -15,7 +15,7 @@ horizontal.
 | Fondo nine-patch redimensionable | `app/src/main/res/drawable-xxhdpi/background.9.png` |
 | La mascota no se deforma | Zona central fija del nine-patch; solo se estira el cielo |
 | Múltiples tamaños y orientaciones | `ConstraintLayout`, `dp`/`sp`, `values-land`, `values-sw600dp` y `values-sw600dp-land` |
-| GitHub | Repositorio Git local con rama de trabajo y fusión; instrucciones de publicación abajo |
+| GitHub | Repositorio Git con rama de trabajo, fusión y guía de publicación |
 
 ## Idiomas
 
@@ -86,12 +86,12 @@ para poder comparar la composición.
 
 ### Android Studio
 
-1. Abre Android Studio y elige **Open**.
-2. Selecciona la carpeta `MiPrimerProyectoAndroid`.
-3. Espera la sincronización de Gradle (JDK 17 o superior; el proyecto compila con JDK 21).
-4. Ejecuta la configuración `app` en un emulador o dispositivo con Android 5.0+ (API 21+).
-5. Para probar idiomas, cambia el idioma del sistema o usa **Settings → System → Languages
-   & input → App languages → Mi primer proyecto Android**.
+1. Abrir Android Studio y seleccionar **Open**.
+2. Seleccionar la carpeta `MiPrimerProyectoAndroid`.
+3. Esperar la sincronización de Gradle (JDK 17 o superior; el proyecto compila con JDK 21).
+4. Ejecutar la configuración `app` en un emulador o dispositivo con Android 5.0+ (API 21+).
+5. Para probar los idiomas, cambiar el idioma del sistema o usar **Settings → System →
+   Languages & input → App languages → Mi primer proyecto Android**.
 
 ### Línea de comandos
 
@@ -111,8 +111,8 @@ El APK se genera en:
 app/build/outputs/apk/debug/app-debug.apk
 ```
 
-El proyecto usa `compileSdk 35` y `buildToolsVersion 35.0.0`. Si tu SDK no tiene esas
-versiones, Android Studio las instalará al sincronizar.
+El proyecto usa `compileSdk 35` y `buildToolsVersion 35.0.0`. Si el SDK local no tiene esas
+versiones, Android Studio las instala al sincronizar.
 
 ## Pruebas
 
@@ -165,28 +165,27 @@ MiPrimerProyectoAndroid/
 └── settings.gradle
 ```
 
-## GitHub
+## Publicación en GitHub
 
-El proyecto está listo para publicarse. Desde la raíz del repositorio:
+El proyecto está preparado para publicarse. Desde la raíz del repositorio:
 
 ```bash
-git remote add origin https://github.com/<tu-usuario>/MiPrimerProyectoAndroid.git
+git remote add origin https://github.com/<usuario>/MiPrimerProyectoAndroid.git
 git push -u origin main
 git push origin --all
+git push --tags
 ```
 
-El historial local ya incluye una rama de trabajo y su fusión a `main`, reproduciendo el
-flujo solicitado:
+El historial incluye una rama de trabajo y su fusión a `main`, que refleja el flujo de
+trabajo utilizado:
 
-1. **Crear repositorio** en GitHub.
-2. **Crear rama:** `git switch -c feature/pantalla-bienvenida`.
-3. **Hacer commit:** `git add . && git commit -m "Pantalla de bienvenida responsive"`.
-4. **Abrir Pull Request** desde la rama hacia `main`.
+1. **Crear el repositorio** en GitHub.
+2. **Crear una rama:** `git switch -c feature/pantalla-bienvenida`.
+3. **Realizar el commit:** `git add . && git commit -m "Pantalla de bienvenida responsive"`.
+4. **Abrir un Pull Request** desde la rama hacia `main`.
 5. **Revisar y fusionar** el Pull Request.
 
-Después de publicar, comparte la URL del repositorio con tus compañeros y revisa sus
-proyectos. El repositorio no incluye credenciales ni una URL remota: esta se crea al
-publicarlo en tu cuenta de GitHub.
+Una vez publicado, la URL del repositorio se comparte con los compañeros para la revisión.
 
 ## Créditos
 
