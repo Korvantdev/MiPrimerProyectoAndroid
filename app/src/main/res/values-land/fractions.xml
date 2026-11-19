@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="title_vertical_bias">12%</fraction>
+    <fraction name="enter_vertical_bias">36%</fraction>
+</resources>

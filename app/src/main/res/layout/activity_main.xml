@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="0dp"
+    tools:context=".MainActivity">
+
+    <!-- Explicit 0dp stops the 9-patch content padding from shrinking the overlay;
+         system-bar insets are applied in MainActivity. -->
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/welcome_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:accessibilityHeading="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:layout_marginStart="@dimen/screen_horizontal_margin"
+        android:layout_marginEnd="@dimen/screen_horizontal_margin"
+        android:maxLines="1"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="@dimen/title_text_size"
+        app:autoSizeMinTextSize="@dimen/title_min_text_size"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        tools:targetApi="28" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/enter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_enter_button"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:letterSpacing="0.03"
+        android:minWidth="@dimen/enter_min_width"
+        android:minHeight="@dimen/enter_min_height"
+        android:paddingStart="@dimen/enter_horizontal_padding"
+        android:paddingTop="@dimen/enter_vertical_padding"
+        android:paddingEnd="@dimen/enter_horizontal_padding"
+        android:paddingBottom="@dimen/enter_vertical_padding"
+        android:text="@string/enter"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/enter_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
