@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Relative vertical position of each element (0 = top, 1 = bottom). -->
+    <fraction name="title_vertical_bias">15%</fraction>
+    <fraction name="enter_vertical_bias">38%</fraction>
+</resources>

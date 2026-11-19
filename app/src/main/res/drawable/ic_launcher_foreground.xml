@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Cloud band from the background artwork. -->
+    <path
+        android:fillAlpha="0.94"
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M0,108 L0,96 C4,91 10,90 15,94 C19,88 27,86 33,91 C38,85 47,85 52,91 C57,86 65,87 69,92 C74,87 82,87 87,92 C93,88 101,89 105,95 C108,99 108,103 108,108 Z" />
+
+    <!-- Antennae. -->
+    <path
+        android:pathData="M44,37 L39,28 M64,37 L69,28"
+        android:strokeColor="#101012"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.4" />
+
+    <!-- Head. -->
+    <path
+        android:fillColor="#101012"
+        android:pathData="M38,55 L38,47 C38,38.5 45,33 54,33 C63,33 70,38.5 70,47 L70,55 Z" />
+
+    <!-- Eyes. -->
+    <path
+        android:fillColor="#4FD8FF"
+        android:pathData="M44.4,46 A2.6,2.6 0 1,0 49.6,46 A2.6,2.6 0 1,0 44.4,46 Z" />
+    <path
+        android:fillColor="#4FD8FF"
+        android:pathData="M58.4,46 A2.6,2.6 0 1,0 63.6,46 A2.6,2.6 0 1,0 58.4,46 Z" />
+
+    <!-- Body. -->
+    <path
+        android:fillColor="#101012"
+        android:pathData="M42,55 L66,55 C68.2,55 70,56.8 70,59 L70,75 C70,77.2 68.2,79 66,79 L42,79 C39.8,79 38,77.2 38,75 L38,59 C38,56.8 39.8,55 42,55 Z" />
+
+    <!-- Arms. -->
+    <path
+        android:fillColor="#101012"
+        android:pathData="M34,58 L34,74 L31.5,74 C30.1,74 29,72.9 29,71.5 L29,60.5 C29,59.1 30.1,58 31.5,58 Z" />
+    <path
+        android:fillColor="#101012"
+        android:pathData="M74,58 L74,74 L76.5,74 C77.9,74 79,72.9 79,71.5 L79,60.5 C79,59.1 77.9,58 76.5,58 Z" />
+
+    <!-- Legs. -->
+    <path
+        android:fillColor="#101012"
+        android:pathData="M44,78 L49,78 L49,86 L44,86 Z" />
+    <path
+        android:fillColor="#101012"
+        android:pathData="M59,78 L64,78 L64,86 L59,86 Z" />
+</vector>
