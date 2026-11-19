@@ -1,4 +1,4 @@
-# MiPrimerProyectoAndroid
+# Primer Proyecto Enfocado a Android
 
 Pantalla de bienvenida para el primer proyecto Android: fondo ilustrado con la mascota de
 Android, cuatro idiomas y un diseño que se adapta a teléfonos y tabletas en vertical y
