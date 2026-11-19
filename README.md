@@ -167,27 +167,6 @@ MiPrimerProyectoAndroid/
 └── settings.gradle
 ```
 
-## Publicación en GitHub
-
-El proyecto está preparado para publicarse. Desde la raíz del repositorio:
-
-```bash
-git remote add origin https://github.com/Korvantdev/MiPrimerProyectoAndroid.git
-git push -u origin main
-git push origin --all
-git push --tags
-```
-
-El historial incluye una rama de trabajo y su fusión a `main`, que refleja el flujo de
-trabajo utilizado:
-
-1. **Crear el repositorio** en GitHub.
-2. **Crear una rama:** `git switch -c feature/pantalla-bienvenida`.
-3. **Realizar el commit:** `git add . && git commit -m "Pantalla de bienvenida responsive"`.
-4. **Abrir un Pull Request** desde la rama hacia `main`.
-5. **Revisar y fusionar** el Pull Request.
-
-Una vez publicado, la URL del repositorio se comparte con los compañeros para la revisión.
 
 ## Créditos
 
