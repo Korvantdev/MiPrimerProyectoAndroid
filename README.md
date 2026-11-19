@@ -4,6 +4,8 @@ Pantalla de bienvenida para el primer proyecto Android: fondo ilustrado con la m
 Android, cuatro idiomas y un diseño que se adapta a teléfonos y tabletas en vertical y
 horizontal.
 
+Repositorio: <https://github.com/Korvantdev/MiPrimerProyectoAndroid>
+
 ![Cuatro idiomas, una sola pantalla](docs/preview-languages.png)
 
 ## Requisitos del proyecto
@@ -170,7 +172,7 @@ MiPrimerProyectoAndroid/
 El proyecto está preparado para publicarse. Desde la raíz del repositorio:
 
 ```bash
-git remote add origin https://github.com/<usuario>/MiPrimerProyectoAndroid.git
+git remote add origin https://github.com/Korvantdev/MiPrimerProyectoAndroid.git
 git push -u origin main
 git push origin --all
 git push --tags
